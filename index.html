@@ -23,15 +23,15 @@
           <label for="checkbox_toggle" class="hamburger">&#9776;</label>
           <!-- NAVIGATION MENUS -->
           <div class="menu">
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Vision</a></li>
-            <li class="services">
-              <a href="/">Roadmap</a>
-            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#roadmap">Roadmap</a></li>
             <li><a href="https://nextgenguilds.gitbook.io/nextgen-guilds/">Whitepaper</a></li>
-            <li><img src="images/twitter.svg" alt=""></li>
+           <a href="https://www.twitter.com/NextGenGuilds"> <li><img src="images/twitter.svg" alt=""></li></a>
           </div>
         </ul>
+
+
       </nav>
     </div>
      
@@ -55,7 +55,7 @@
           <img src="images/legend.png" class="d-block mx-lg-auto img-fluid" alt="legend" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">The NextGen Guild Vision</h1>
+          <a id="vision"><h1 class="display-5 fw-bold lh-1 mb-3"> NextGen Guild Vision</h1></a>
           <p class="lead">Getting talents recognized for their hardwork is at the core of everything the NextGen guilds stands for. If you're smart and talented but can't get yourself out there, we're here to help with that. We want to make sure people actually enjoy participation in the ecosystem because they know their efforts won't be a shot in the dark.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Whitepaper</button>
@@ -65,12 +65,13 @@
     </div>
   </div>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
   
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center row">
       
         
       
-      <div class="row">
+      <div class="row" id="roadmap">
         <img src="images/roadmap.png" class="d-block mx-lg-auto img-fluid" alt="legend" loading="lazy">
       </div>
       
@@ -82,5 +83,6 @@
     <div class="footer">
       <p class="foot">Copyright NextGen Guilds 2022 - All Rights Reserved</p>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
